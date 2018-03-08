@@ -1,0 +1,8 @@
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\BLL\bin\Debug\DLL.dll
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\BLL\bin\Debug\DLL.pdb
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\BLL\bin\Debug\DLL.xml
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\BLL\obj\Debug\DLL.Resources.resources
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\BLL\obj\Debug\DLL.vbproj.GenerateResource.Cache
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\BLL\obj\Debug\DLL.dll
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\BLL\obj\Debug\DLL.xml
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\BLL\obj\Debug\DLL.pdb

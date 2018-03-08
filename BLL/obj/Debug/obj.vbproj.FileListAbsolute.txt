@@ -1,0 +1,16 @@
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\BLL\bin\Debug\obj.dll
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\BLL\bin\Debug\obj.pdb
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\BLL\bin\Debug\obj.xml
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\BLL\obj\Debug\obj.Resources.resources
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\BLL\obj\Debug\obj.vbproj.GenerateResource.Cache
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\BLL\obj\Debug\obj.dll
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\BLL\obj\Debug\obj.xml
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\BLL\obj\Debug\obj.pdb
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\obj\bin\Debug\obj.dll
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\obj\bin\Debug\obj.pdb
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\obj\bin\Debug\obj.xml
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\obj\obj\Debug\obj.Resources.resources
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\obj\obj\Debug\obj.vbproj.GenerateResource.Cache
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\obj\obj\Debug\obj.dll
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\obj\obj\Debug\obj.xml
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\obj\obj\Debug\obj.pdb

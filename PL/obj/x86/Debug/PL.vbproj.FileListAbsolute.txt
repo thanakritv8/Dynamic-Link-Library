@@ -1,0 +1,15 @@
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\PL\bin\Debug\PL.exe
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\PL\bin\Debug\PL.pdb
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\PL\bin\Debug\PL.xml
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\PL\obj\x86\Debug\PL.vbprojResolveAssemblyReference.cache
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\PL\obj\x86\Debug\PL.Resources.resources
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\PL\obj\x86\Debug\PL.vbproj.GenerateResource.Cache
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\PL\obj\x86\Debug\PL.exe
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\PL\obj\x86\Debug\PL.xml
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\PL\obj\x86\Debug\PL.pdb
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\PL\obj\x86\Debug\PL.frmFtp.resources
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\PL\bin\Debug\BLL.dll
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\PL\bin\Debug\BLL.pdb
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\PL\bin\Debug\BLL.xml
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\PL\obj\x86\Debug\PL.frmPicDiff.resources
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\PL\obj\x86\Debug\PL.frmMapDrive.resources
