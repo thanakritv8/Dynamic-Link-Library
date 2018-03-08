@@ -24,8 +24,8 @@ Public Class objPicDiff
                 Else
                     bmPicDiff.SetPixel(x, y, ng_color)
                 End If
-            Next y
-        Next x
+            Next
+        Next
         Return bmPicDiff
     End Function
 End Class

@@ -90,7 +90,7 @@ Partial Class frmPicDiff
         Me.picA.TabIndex = 6
         Me.picA.TabStop = False
         '
-        'frmDiffImg
+        'frmPicDiff
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -101,7 +101,7 @@ Partial Class frmPicDiff
         Me.Controls.Add(Me.btPicB)
         Me.Controls.Add(Me.btPicA)
         Me.Controls.Add(Me.picA)
-        Me.Name = "frmDiffImg"
+        Me.Name = "frmPicDiff"
         Me.Text = "frmDiffImg"
         CType(Me.picDiff, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picB, System.ComponentModel.ISupportInitialize).EndInit()
