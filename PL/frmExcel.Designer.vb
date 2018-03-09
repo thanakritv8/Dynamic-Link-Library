@@ -30,7 +30,10 @@ Partial Class frmExcel
         Me.cPassword = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.cAddress = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.cTel = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.btExport = New System.Windows.Forms.Button()
+        Me.btWriteDgv = New System.Windows.Forms.Button()
+        Me.btCreate = New System.Windows.Forms.Button()
+        Me.btOpen = New System.Windows.Forms.Button()
+        Me.btInput = New System.Windows.Forms.Button()
         CType(Me.dgvEmp, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -90,21 +93,51 @@ Partial Class frmExcel
         Me.cTel.Name = "cTel"
         Me.cTel.ReadOnly = True
         '
-        'btExport
+        'btWriteDgv
         '
-        Me.btExport.Location = New System.Drawing.Point(12, 13)
-        Me.btExport.Name = "btExport"
-        Me.btExport.Size = New System.Drawing.Size(75, 23)
-        Me.btExport.TabIndex = 1
-        Me.btExport.Text = "Export"
-        Me.btExport.UseVisualStyleBackColor = True
+        Me.btWriteDgv.Location = New System.Drawing.Point(174, 13)
+        Me.btWriteDgv.Name = "btWriteDgv"
+        Me.btWriteDgv.Size = New System.Drawing.Size(110, 23)
+        Me.btWriteDgv.TabIndex = 1
+        Me.btWriteDgv.Text = "WriteDgvToExcel"
+        Me.btWriteDgv.UseVisualStyleBackColor = True
+        '
+        'btCreate
+        '
+        Me.btCreate.Location = New System.Drawing.Point(12, 13)
+        Me.btCreate.Name = "btCreate"
+        Me.btCreate.Size = New System.Drawing.Size(75, 23)
+        Me.btCreate.TabIndex = 2
+        Me.btCreate.Text = "Create"
+        Me.btCreate.UseVisualStyleBackColor = True
+        '
+        'btOpen
+        '
+        Me.btOpen.Location = New System.Drawing.Point(93, 13)
+        Me.btOpen.Name = "btOpen"
+        Me.btOpen.Size = New System.Drawing.Size(75, 23)
+        Me.btOpen.TabIndex = 3
+        Me.btOpen.Text = "Open"
+        Me.btOpen.UseVisualStyleBackColor = True
+        '
+        'btInput
+        '
+        Me.btInput.Location = New System.Drawing.Point(290, 13)
+        Me.btInput.Name = "btInput"
+        Me.btInput.Size = New System.Drawing.Size(75, 23)
+        Me.btInput.TabIndex = 4
+        Me.btInput.Text = "WriteInput"
+        Me.btInput.UseVisualStyleBackColor = True
         '
         'frmExcel
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(621, 415)
-        Me.Controls.Add(Me.btExport)
+        Me.Controls.Add(Me.btInput)
+        Me.Controls.Add(Me.btOpen)
+        Me.Controls.Add(Me.btCreate)
+        Me.Controls.Add(Me.btWriteDgv)
         Me.Controls.Add(Me.dgvEmp)
         Me.Name = "frmExcel"
         Me.Text = "frmExcel"
@@ -120,5 +153,8 @@ Partial Class frmExcel
     Friend WithEvents cPassword As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents cAddress As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents cTel As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents btExport As System.Windows.Forms.Button
+    Friend WithEvents btWriteDgv As System.Windows.Forms.Button
+    Friend WithEvents btCreate As System.Windows.Forms.Button
+    Friend WithEvents btOpen As System.Windows.Forms.Button
+    Friend WithEvents btInput As System.Windows.Forms.Button
 End Class

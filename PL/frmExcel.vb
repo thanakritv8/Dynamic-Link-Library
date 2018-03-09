@@ -9,8 +9,30 @@ Public Class frmExcel
         dgvEmp.Rows.Add("5", "Ball", "Freebey", "Jong@gmail.com", "159632", "999/5", "08145789658")
     End Sub
 
-    Private Sub btExport_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btExport.Click
+    Private Sub btWriteDgv_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btWriteDgv.Click
+        Dim Path As String = "D:\test1.xlsx"
+        Dim Sheet As String = "sheet1"
         Dim objExcel As objExcel = New objExcel
-        objExcel.WriteDgvToExcel("", "", dgvEmp)
+        objExcel.WriteDgvToExcel(Path, Sheet, dgvEmp)
+    End Sub
+
+    Private Sub btCreate_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btCreate.Click
+        Dim Path As String = "D:\test1.xlsx"
+        Dim objExcel As objExcel = New objExcel
+        objExcel.CreateExcel(Path)
+    End Sub
+
+    Private Sub btOpen_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btOpen.Click
+        Dim Path As String = "D:\test1.xlsx"
+        Dim objExcel As objExcel = New objExcel
+        objExcel.OpenExcel(Path)
+    End Sub
+
+    Private Sub btInput_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btInput.Click
+        Dim _Input As String = InputBox("Send Input To Excel", "Input")
+        Dim Path As String = "D:\test1.xlsx"
+        Dim Sheet As String = "sheet1"
+        Dim objExcel As objExcel = New objExcel
+        objExcel.WriteInputToExcel(Path, Sheet, _Input, 1, 1)
     End Sub
 End Class

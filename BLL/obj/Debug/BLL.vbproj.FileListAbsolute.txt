@@ -6,3 +6,4 @@ C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\BLL\obj\Deb
 C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\BLL\obj\Debug\BLL.dll
 C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\BLL\obj\Debug\BLL.xml
 C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\BLL\obj\Debug\BLL.pdb
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\BLL\obj\Debug\BLL.vbprojResolveAssemblyReference.cache
