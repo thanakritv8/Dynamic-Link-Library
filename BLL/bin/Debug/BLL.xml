@@ -6,7 +6,33 @@ BLL
 </name>
 </assembly>
 <members>
-<member name="M:BLL.objEncrypt.MD5Hash(System.String,System.String)">
+<member name="M:BLL.objText.ReadLine(System.String)">
+	<summary>
+ Read text line
+ </summary>
+	<param name="Path"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BLL.objText.CreateFile(System.String)">
+	<summary>
+ Create text file
+ </summary>
+	<param name="Path"></param>
+	<remarks></remarks>
+</member><member name="M:BLL.objText.WriteFile(System.String,System.String)">
+	<summary>
+ Write text file
+ </summary>
+	<param name="Path"></param>
+	<param name="InputText"></param>
+	<remarks></remarks>
+</member><member name="M:BLL.objText.OpenFile(System.String)">
+	<summary>
+ Open text file
+ </summary>
+	<param name="Path"></param>
+	<remarks></remarks>
+</member><member name="M:BLL.objEncrypt.MD5Hash(System.String,System.String)">
 	<summary>
  Get MD5
  </summary>
