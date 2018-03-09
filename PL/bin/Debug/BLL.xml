@@ -6,7 +6,29 @@ BLL
 </name>
 </assembly>
 <members>
-<member name="M:BLL.objFtp.UploadFile(System.String,System.String)">
+<member name="M:BLL.objEncrypt.MD5Hash(System.String,System.String)">
+	<summary>
+ Get MD5
+ </summary>
+	<param name="strInput"></param>
+	<param name="strKey"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BLL.objEncrypt.Encyrption(System.String,System.String)">
+	<summary>
+ Encyrption file
+ </summary>
+	<param name="file"></param>
+	<param name="key"></param>
+	<remarks></remarks>
+</member><member name="M:BLL.objEncrypt.Decyrption(System.String,System.String)">
+	<summary>
+ Decyrption file
+ </summary>
+	<param name="file"></param>
+	<param name="key"></param>
+	<remarks></remarks>
+</member><member name="M:BLL.objFtp.UploadFile(System.String,System.String)">
 	<summary>
  Use upload file from ftp
  </summary>
@@ -57,6 +79,36 @@ BLL
 	<param name="bmPicA"></param>
 	<param name="bmPicB"></param>
 	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BLL.objExcel.WriteDgvToExcel(System.String,System.String,System.Windows.Forms.DataGridView)">
+	<summary>
+ Write DataGridview to excel
+ </summary>
+	<param name="Path"></param>
+	<param name="Sheet"></param>
+	<param name="dgv"></param>
+	<remarks></remarks>
+</member><member name="M:BLL.objExcel.WriteInputToExcel(System.String,System.String,System.String,System.Int32,System.Int32)">
+	<summary>
+ Write input to excel
+ </summary>
+	<param name="Path"></param>
+	<param name="Sheet"></param>
+	<param name="InputText"></param>
+	<param name="iRow"></param>
+	<param name="iCol"></param>
+	<remarks></remarks>
+</member><member name="M:BLL.objExcel.CreateExcel(System.String)">
+	<summary>
+ Create file excel
+ </summary>
+	<param name="Path"></param>
+	<remarks></remarks>
+</member><member name="M:BLL.objExcel.OpenExcel(System.String)">
+	<summary>
+ Open file excel
+ </summary>
+	<param name="_Path"></param>
 	<remarks></remarks>
 </member>
 </members>

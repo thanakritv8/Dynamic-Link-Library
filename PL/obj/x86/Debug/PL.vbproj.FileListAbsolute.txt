@@ -14,3 +14,5 @@ C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\PL\bin\Debu
 C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\PL\obj\x86\Debug\PL.frmPicDiff.resources
 C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\PL\obj\x86\Debug\PL.frmMapDrive.resources
 C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\PL\obj\x86\Debug\PL.frmExcel.resources
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\PL\bin\Debug\PL.exe.config
+C:\Users\150229\Documents\Visual Studio 2010\Projects\SolutionSimple\PL\obj\x86\Debug\PL.frmEncrypt.resources
