@@ -1,4 +1,4 @@
-# SimpleSolution
+# SolutionSimple
 Reference file BLL.dll
 1. Difference picture -> objPicDiff
 2. Map drive  -> objMapDrive
