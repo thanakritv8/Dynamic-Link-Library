@@ -6,53 +6,36 @@ BLL
 </name>
 </assembly>
 <members>
-<member name="M:BLL.objText.ReadLine(System.String)">
+<member name="M:BLL.objDB.ConnectDB(System.String,System.String,System.String)">
 	<summary>
- Read text line
+ Ex. Connect(IPServer,Username,Password)
  </summary>
-	<param name="Path"></param>
+	<param name="strIp"></param>
+	<param name="strUser"></param>
+	<param name="strPass"></param>
 	<returns></returns>
 	<remarks></remarks>
-</member><member name="M:BLL.objText.CreateFile(System.String)">
+</member><member name="M:BLL.objDB.DisconnectDB(System.Data.SqlClient.SqlConnection)">
 	<summary>
- Create text file
+ When close program please disconnect 
  </summary>
-	<param name="Path"></param>
+	<param name="conn"></param>
 	<remarks></remarks>
-</member><member name="M:BLL.objText.WriteFile(System.String,System.String)">
+</member><member name="M:BLL.objDB.SelectSQL(System.String,System.Data.SqlClient.SqlConnection)">
 	<summary>
- Write text file
+ Select return datatable
  </summary>
-	<param name="Path"></param>
-	<param name="InputText"></param>
-	<remarks></remarks>
-</member><member name="M:BLL.objText.OpenFile(System.String)">
-	<summary>
- Open text file
- </summary>
-	<param name="Path"></param>
-	<remarks></remarks>
-</member><member name="M:BLL.objEncrypt.MD5Hash(System.String,System.String)">
-	<summary>
- Get MD5
- </summary>
-	<param name="strInput"></param>
-	<param name="strKey"></param>
+	<param name="_SQL"></param>
+	<param name="conn"></param>
 	<returns></returns>
 	<remarks></remarks>
-</member><member name="M:BLL.objEncrypt.Encyrption(System.String,System.String)">
+</member><member name="M:BLL.objDB.ExecuteSQL(System.String,System.Data.SqlClient.SqlConnection)">
 	<summary>
- Encyrption file
+ Ex. Insert, Update, Delete, After etc.
  </summary>
-	<param name="file"></param>
-	<param name="key"></param>
-	<remarks></remarks>
-</member><member name="M:BLL.objEncrypt.Decyrption(System.String,System.String)">
-	<summary>
- Decyrption file
- </summary>
-	<param name="file"></param>
-	<param name="key"></param>
+	<param name="_SQL"></param>
+	<param name="conn"></param>
+	<returns></returns>
 	<remarks></remarks>
 </member><member name="M:BLL.objFtp.UploadFile(System.String,System.String)">
 	<summary>
@@ -76,6 +59,28 @@ BLL
  </summary>
 	<param name="PathServer"></param>
 	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BLL.objEncrypt.MD5Hash(System.String,System.String)">
+	<summary>
+ Get MD5
+ </summary>
+	<param name="strInput"></param>
+	<param name="strKey"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BLL.objEncrypt.Encyrption(System.String,System.String)">
+	<summary>
+ Encyrption file
+ </summary>
+	<param name="file"></param>
+	<param name="key"></param>
+	<remarks></remarks>
+</member><member name="M:BLL.objEncrypt.Decyrption(System.String,System.String)">
+	<summary>
+ Decyrption file
+ </summary>
+	<param name="file"></param>
+	<param name="key"></param>
 	<remarks></remarks>
 </member><member name="M:BLL.objMapDrive.MapDrive(System.String,System.String)">
 	<summary>
@@ -135,6 +140,32 @@ BLL
  Open file excel
  </summary>
 	<param name="_Path"></param>
+	<remarks></remarks>
+</member><member name="M:BLL.objText.ReadLine(System.String)">
+	<summary>
+ Read text line
+ </summary>
+	<param name="Path"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BLL.objText.CreateFile(System.String)">
+	<summary>
+ Create text file
+ </summary>
+	<param name="Path"></param>
+	<remarks></remarks>
+</member><member name="M:BLL.objText.WriteFile(System.String,System.String)">
+	<summary>
+ Write text file
+ </summary>
+	<param name="Path"></param>
+	<param name="InputText"></param>
+	<remarks></remarks>
+</member><member name="M:BLL.objText.OpenFile(System.String)">
+	<summary>
+ Open text file
+ </summary>
+	<param name="Path"></param>
 	<remarks></remarks>
 </member>
 </members>
