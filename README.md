@@ -6,3 +6,4 @@ Reference file BLL.dll
 4. File Excel -> objExcel
 5. File Text  -> objText
 6. Encryption -> objEncrypt
+7. Database -> objDB
